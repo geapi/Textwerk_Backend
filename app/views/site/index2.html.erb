@@ -1,0 +1,59 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>  
+<script src="/javascripts/uk.org.zowie.Treemap-0.9.js" type="text/javascript"></script>
+<script src="/javascripts/gviz_treemap.js" type="text/javascript" ></script>
+<script type="text/javascript">
+  google.load("visualization", "1", {packages:["orgchart"]});
+
+  // Set callback to run when API is loaded
+  google.setOnLoadCallback(initialize);    
+  
+  function initialize() {
+    // Create a Query that reads from a remote Data source.
+    var query = new google.visualization.Query(
+      'http://localhost:3000/sample/fruits');
+
+    // Send the query with a callback function.
+    query.send(handleQueryResponse);
+  }
+
+  function handleQueryResponse(response) {
+    if (response.isError()) {
+      alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+      return;
+    }
+
+    var data = response.getDataTable();
+    var orgchart = new google.visualization.OrgChart(
+      document.getElementById('orgchartdiv'));
+      
+    orgchart.draw(data, {
+      selectionColor: 'yellow'
+    });
+          
+    // Instantiate our Treemap visualization.
+    var treemap = new ns.TreeMap(document.getElementById('treemapdiv'));
+  
+    // Draw our treemap with the data fetched from the remote source
+    treemap.draw(data, {
+      width: '50%',
+      height: '300'
+    });
+    
+    // Send events fired from the TreeMap to the OrgChart
+    google.visualization.events.addListener(treemap, 'select', function() {
+      orgchart.setSelection(treemap.getSelection());
+    });
+  }        
+</script>
+<div class="grid_10">
+	<div id="orgchartdiv"></div>
+	<div id="treemapdiv"></div>
+	<p>This page demonstrates using an existing OrgChart visualization and a
+		newly created Treemap visualization, using data loaded from a remote
+		source. In this case, a Google Spreadsheet is used.
+	</p>
+	<p>Additionally, selection events fired from the TreeMap are routed to the
+		OrgChart. Try click on a box in the TreeMap and see the corresponding
+		element highlighted in the OrgChart.
+	</p>  
+</div>

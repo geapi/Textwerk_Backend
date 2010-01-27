@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <style type="text/css" media="screen">
+      TABLE {
+        border: 1px solid #444;
+      }
+      TH {
+        background-color: rgb(102, 148, 227);
+        color: #fff;
+      }
+      TR.odd {
+        background-color: #fff;
+      }
+      TR.even {
+        background-color: rgb(224, 236, 255);        
+      }
+      
+      UL.validationerrors {
+        border: 1px solid #f00;
+      }
+      
+      UL.validationerrors LI STRONG {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <% unless @gviz.valid? -%>
+      <p>Uh oh, something went wrong:</p>
+      <ul class="validationerrors">
+        <% @gviz.errors.each_pair do |key, message| -%>
+          <li><strong><%= key %></strong>: <%= message %></li>
+        <% end -%>
+      </ul>
+    <% end -%>
+    <table>
+        <tr>
+        <% @gviz.cols.each do |col| -%>
+          <th><%= col[:label] || col[:id] %>(<%= col[:type] %>)</th>
+        <% end -%>
+        </tr>
+        <% @gviz.data.each_with_index do |datarow, i| -%>
+        <tr class="<%= i % 2 == 0 ? 'even' : 'odd' %>">
+          <% datarow.each do |dataitem| -%>
+            <td><%= dataitem %></td>
+          <% end -%>
+        </tr>
+        <% end -%>
+    </table>
+  </body>
+</html>

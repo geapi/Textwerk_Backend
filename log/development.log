@@ -1,0 +1,1361 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 16:51:09) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 16:51:14) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:51:44) [GET]
+Rendering template within layouts/application
+Rendering site/index
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:6: syntax error, unexpected ':', expecting ')'
+... stylesheet_link_tag 'reset' :media => "all" ).to_s); @outpu...
+                              ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n<head>\n\t<title>eat. bike. local.</title>\n\t"
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag 'reset' :media => "all" ).to_s); @output_buffer.concat " \n\t"
+; @output_buffer.concat "\n\n\t"
+
+; @output_buffer.concat(( yield :head ).to_s); @output_buffer.concat "\n</head>\n<body>\n\t<div id=\"pageContainer\" class=\"container_12\">\n\t\t<div class=\"grid_12\">\n\t\t\t"
+
+
+
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n\t\t</div>\n\t</div>\n</body>\n</html>"
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:21:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:6: syntax error, unexpected ':', expecting ')'
+... stylesheet_link_tag 'reset' :media => "all" ).to_s); @outpu...
+                              ^) on line #6 of app/views/layouts/application.html.erb:
+3: <html>
+4: <head>
+5: 	<title>eat. bike. local.</title>
+6: 	<%= stylesheet_link_tag 'reset' :media => "all" %> 
+7: 	<%# =javascript_include_tag "jquery-1.4.min"%>
+8: 
+9: 	<%= yield :head %>
+
+    app/views/layouts/application.html.erb:21:in `compile!'
+
+Rendered rescues/_trace (37.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:52:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:54:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+
+ActionView::TemplateError (undefined method `stylesheet_include_tag' for #<ActionView::Base:0x11d4984>) on line #6 of app/views/layouts/application.html.erb:
+3: <html>
+4: <head>
+5: 	<title>eat. bike. local.</title>
+6: 	<%= stylesheet_include_tag 'reset', :media => "all", :all =>"true" %> 
+7: 	<%# =javascript_include_tag "jquery-1.4.min"%>
+8: 
+9: 	<%= yield :head %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:55:21) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:56:50) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:59:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:59:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 16:59:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:24:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:24:28) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:24:35) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:24:36) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:25:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:25:40) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:26:33) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:27:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+ERROR: compiling _run_erb_app47views47site47index46html46erb RAISED compile error
+/Users/geapi/_SourceCode/text-werk/app/views/site/index.html.erb:1: syntax error, unexpected tASSOC, expecting kEND
+..._erb_template=true ;  :head => '<title>TextWerk - Home</titl...
+                              ^
+Function body:           def _run_erb_app47views47site47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ;  :head => '<title>TextWerk - Home</title>'; @output_buffer.concat " \n<body>\n\t<div class=\"grid_8\">\n\t\tWelcome to Textwerk!\n\t</div>\n</body>"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/text-werk/app/views/site/index.html.erb:9:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/text-werk/app/views/site/index.html.erb:1: syntax error, unexpected tASSOC, expecting kEND
+..._erb_template=true ;  :head => '<title>TextWerk - Home</titl...
+                              ^) on line #1 of app/views/site/index.html.erb:
+1: <% :head => '<title>TextWerk - Home</title>'%> 
+2: <body>
+3: 	<div class="grid_8">
+4: 		Welcome to Textwerk!
+
+    app/views/site/index.html.erb:9:in `compile!'
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:31:38) [GET]
+Rendering template within layouts/site
+Rendering site/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:31:39) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:32:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:32:35) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:33:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:33:30) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:33:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 81ms (View: 75, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:33:48) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:35:19) [GET]
+Rendering template within layouts/application
+Rendering site/index
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:5: syntax error, unexpected ':', expecting ')'
+... stylesheet_link_tag 'reset' :media => "all" ).to_s); @outpu...
+                              ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n<head>\n\t"
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag 'reset' :media => "all" ).to_s); @output_buffer.concat "\n\t"
+; @output_buffer.concat(( stylesheet_link_tag  '960', 'text', 'textwerk', :media => "all" ).to_s); @output_buffer.concat " \n\t"
+; @output_buffer.concat "\n\t"
+; @output_buffer.concat(( yield :head ).to_s); @output_buffer.concat "\n</head>\n<body>\n\t<div id=\"pageContainer\" class=\"container_12\">\n\t\t<div class=\"grid_12\">\n\t\t\t"
+
+
+
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n\t\t</div>\n\t</div>\n</body>\n</html>"
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:20:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/text-werk/app/views/layouts/application.html.erb:5: syntax error, unexpected ':', expecting ')'
+... stylesheet_link_tag 'reset' :media => "all" ).to_s); @outpu...
+                              ^) on line #5 of app/views/layouts/application.html.erb:
+2: 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+3: <html>
+4: <head>
+5: 	<%= stylesheet_link_tag 'reset' :media => "all" %>
+6: 	<%= stylesheet_link_tag  '960', 'text', 'textwerk', :media => "all" %> 
+7: 	<%#=javascript_include_tag "jquery-1.4.min"%>
+8: 	<%= yield :head %>
+
+    app/views/layouts/application.html.erb:20:in `compile!'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:35:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:35:29) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:36:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:36:13) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:36:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:36:48) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:37:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:37:27) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:38:04) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:38:05) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:41:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:41:18) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:41:23) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:41:23) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:42:22) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:42:23) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 47ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:42:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:42:27) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:44:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:44:21) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:44:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:44:28) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:45:02) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:45:02) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 13ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:45:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:45:05) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:47:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:47:34) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:49:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:49:24) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:49:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:49:32) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:49:33) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 19ms (View: 4, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:49:35) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:49:35) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:49:36) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:49:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:49:39) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:49:41) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:49:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:49:51) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:49:52) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:50:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:50:31) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:50:32) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:50:35) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:50:35) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:50:36) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:51:04) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:51:04) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:51:04) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:51:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:51:06) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:51:08) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:51:22) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:51:22) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:51:22) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:51:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:51:48) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:51:49) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:52:08) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 48ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:52:08) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:52:09) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:52:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:52:14) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:52:15) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:54:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:54:36) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:54:37) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:54:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:54:51) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DataController#fruits (for 127.0.0.1 at 2010-01-26 17:54:52) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/data/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:55:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:55:37) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#fruits (for 127.0.0.1 at 2010-01-26 17:55:38) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+NameError (uninitialized constant DataController):
+  
+
+Rendered rescues/_trace (77.5ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:55:56) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:55:56) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:55:57) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:55:59) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:55:59) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:56:00) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:56:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:56:13) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:56:14) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:56:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:56:54) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:56:55) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:57:01) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:57:01) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:57:02) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+
+ActionController::RoutingError (No route matches "/sample/fruits" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:57:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-26 17:57:27) [GET]
+  Parameters: {"1258694018"=>nil}
+
+ActionController::RoutingError (No route matches "/stylesheets/reset2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 17:57:30) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:58:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 17:58:04) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:58:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 17:58:26) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 17:58:46) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 17:58:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 17:58:52) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 18:03:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SampleController#fruits (for 127.0.0.1 at 2010-01-26 18:03:16) [GET]
+  Parameters: {"tqx"=>"reqId:0"}
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/sample/fruits?tqx=reqId%3A0]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 18:10:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:10:21) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:10:26) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7024ms (View: 12, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:11:34) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7201ms (View: 18, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:15:18) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14863ms (View: 115, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:16:20) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.size) on line #8 of app/views/pubmed/index.html.erb:
+5:   <input type="text" name="text"  size="40"></input><br/>
+6:   <input type="submit" value="Search &rarr;"/>
+7: <% end -%>
+8: Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
+9: <% if @params -%>
+10: <h3>Results</h3>
+11: <% counter = 1%>
+
+    app/views/pubmed/index.html.erb:8
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:16:58) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:17:01) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3886ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-01-26 18:17:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:17:54) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:17:56) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:18:02) [POST]
+  Parameters: {"authenticity_token"=>"omfUaV2M965W0p/Es0vPVC2E/oOGK4YEZO+o7DAOTpo=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4862ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:19:02) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:19:06) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 90536ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:20:51) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 56367ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:21:47) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:21:47) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:21:47) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>""}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4089ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:21:51) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8479ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:22:06) [POST]
+  Parameters: {"authenticity_token"=>"ytmZBNTTB4jiDXdmw7fnbRjDOpoEe8upNbU4o2GvMJU=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 24392ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]

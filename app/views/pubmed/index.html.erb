@@ -1,0 +1,27 @@
+<div class="grid_8 prefix_2">
+<h1>Pulling data from pubmed</h1>
+<% form_tag({:action => "index"}, :method => :post) do -%>
+  <%= label_tag "Please Enter your Search Terms" %><br/>
+  <input type="text" name="text"  size="40"></input><br/>
+  <input type="submit" value="Search &rarr;"/>
+<% end -%>
+
+<% if @params -%> 
+Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
+<h3>Results</h3>
+<% counter = 1%>
+  <% @pubLib.each do |entry| -%>
+     <div>
+	(<%= counter %>) <%= entry[:id]%>, <%= entry[:Date]%><br />
+	<%= entry[:Title]%><br />
+	<%= entry[:Authors]%><br />
+	<hr/>
+	
+	</div>
+<% counter += 1%>
+    <% end -%>
+<% end -%>
+
+
+
+</div>

@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Textwerk - <%=@pageTitle%></title> 
+	<link href="/stylesheets/reset.css?1258694018" media="all" rel="stylesheet" type="text/css"/>
+	<%= stylesheet_link_tag  '960', 'text', 'textwerk', :media => "all" %> 
+	<%#=javascript_include_tag "jquery-1.4.min"%>
+	<%= yield :head %>
+</head>
+<body>
+	<div id="pageContainer" class="container_12">
+		<div class="grid_12">
+			<%= yield %>
+		</div>
+	</div>
+</body>
+</html>
