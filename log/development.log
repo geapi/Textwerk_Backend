@@ -1359,3 +1359,514 @@ Processing PubmedController#index (for 127.0.0.1 at 2010-01-26 18:22:06) [POST]
 Rendering template within layouts/application
 Rendering pubmed/index
 Completed in 24392ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-06 10:29:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 71ms (View: 68, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#home (for 127.0.0.1 at 2010-02-06 10:30:36) [GET]
+
+ActionController::UnknownAction (No action responded to home. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:30:58) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 97ms (View: 95, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:31:04) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 12829ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:32:59) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:33:03) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 11103ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:34:05) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 10:34:10) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3274ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:09:48) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:09:51) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+
+NoMethodError (undefined method `parseXMLResult' for #<PubmedController:0x25d9ce0>):
+  app/controllers/pubmed_controller.rb:24:in `index'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (20.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:11:56) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+
+NoMethodError (undefined method `parseXMLResult' for PubmedHelper:Module):
+  app/controllers/pubmed_controller.rb:23:in `index'
+
+Rendered rescues/_trace (85.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:12:19) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+
+NoMethodError (undefined method `parseXMLResult' for PubmedHelper:Module):
+  app/controllers/pubmed_controller.rb:23:in `index'
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:14:57) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2997ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:17:16) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2822ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:18:04) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2754ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:18:27) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2406ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:19:22) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2870ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:19:39) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2475ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:26:00) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3005ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:27:01) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:27:10) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2782ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:27:56) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2846ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:28:22) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2550ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:29:05) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3152ms (View: 68, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-06 11:30:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:32:40) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5512ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:34:07) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3064ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:34:44) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2535ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:35:08) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2419ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:38:51) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+
+ActionView::TemplateError (undefined local variable or method `hasToClear' for #<ActionView::Base:0x22874e8>) on line #20 of app/views/pubmed/index.html.erb:
+17: 	<% else %>
+18: 		hasToClear=""
+19: 	<% end%>
+20:      <div id="<%= entry[:id]%>" class="grid_3 alpha pubmedResult" <%=hasToClear%>>
+21: 	<div id="<%= counter %>" class="resultHeading">(<%= counter %>) 
+22: 		<span class="pubMedTitle"><%= entry[:Title]%></span> 
+23: 		<div>Publish Date: <span class="pubMedDate"><%= entry[:Date]%></span></div>
+
+    app/views/pubmed/index.html.erb:20
+    app/views/pubmed/index.html.erb:14:in `each'
+    app/views/pubmed/index.html.erb:14
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:39:23) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2635ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:39:43) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2533ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:40:22) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+
+ActionView::TemplateError (undefined local variable or method `hasToClear' for #<ActionView::Base:0x23faf8c>) on line #16 of app/views/pubmed/index.html.erb:
+13: <% counter = 1%>
+14:   <% @pubLib.each do |entry| -%> 
+15: 	
+16:      <div id="<%= entry[:id]%>" class="grid_3 alpha pubmedResult" <%=hasToClear%>>
+17: 	<div id="<%= counter %>" class="resultHeading">(<%= counter %>) 
+18: 		<span class="pubMedTitle"><%= entry[:Title]%></span> 
+19: 		<div>Publish Date: <span class="pubMedDate"><%= entry[:Date]%></span></div>
+
+    app/views/pubmed/index.html.erb:16
+    app/views/pubmed/index.html.erb:14:in `each'
+    app/views/pubmed/index.html.erb:14
+
+Rendered rescues/_trace (38.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:40:58) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2622ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:45:25) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2893ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:48:14) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2952ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:48:55) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2564ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:49:00) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2627ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:49:26) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2662ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:50:53) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2729ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 11:51:45) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2676ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 12:05:02) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3022ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-06 12:17:33) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+
+SyntaxError (/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:29: syntax error, unexpected kEND
+/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:69: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (28.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-06 12:17:48) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+
+SyntaxError (/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:69: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (91.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 12:18:04) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2642ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 12:23:58) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2609ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-06 18:01:18) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 18:37:56) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3113ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 18:41:43) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2858ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 18:42:55) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2681ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-06 20:05:40) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3725ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-06 22:49:19) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-07 09:47:10) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-07 15:40:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 15:58:28) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2404ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:15:16) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3894ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:15:56) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3415ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:16:58) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3364ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:18:06) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3873ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:18:18) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2506ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:19:11) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2775ms (View: 10, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:19:46) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2759ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 16:22:28) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3028ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-02-07 17:23:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 17:34:48) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3666ms (View: 20, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 17:35:18) [POST]
+  Parameters: {"authenticity_token"=>"YOLC79Rdgw6iLd7KNQi88kj1hUail26TmiCKgjUXjw8=", "text"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 3720ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-02-07 17:35:28) [POST]
+  Parameters: {"authenticity_token"=>"vfFsPdTq/BIAinAgSdDj6SoLuUU9dVIcw76ZMo47+/4=", "text"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 2632ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed]

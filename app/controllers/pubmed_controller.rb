@@ -19,18 +19,27 @@ class PubmedController < ApplicationController
       return result
     end
   end
+  #def computeSameAuthors()
+  #  @authorHash = Hash.new
+  #  @pubLib.each do |entry| 
+  #    authors = entry[:Authors].split(',') 
+  #      authors.each do |author|
+  #       if @authorHash.has_key(author)
+  #          
+  #      end
+  #  end
+  #end
+  
   def index
     if request.post?
       require 'pp'
       @params = params.pretty_inspect
        optionsAll = {
-          'maxdate' => '2003/05/31',
-          'retmax' => 100000,
+          'retmax' => 10000,
           'email' => 'geapi@cs.umd.edu',
         }
       options = {
-        'maxdate' => '2003/05/31',
-        'retmax' => 100,
+        'retmax' => 20,
         'email' => 'geapi@cs.umd.edu',
       }
       keywords = params[:text] # "ovarian cancer p53"
@@ -44,13 +53,13 @@ class PubmedController < ApplicationController
         entry = Hash.new
         entry[:id] =  a.at('Id').inner_html
         entry[:Date] = a.at("Item[@Name='PubDate']").inner_html
-        autoren ="authors: "
+        autoren =""
         a.at("Item[@Name='AuthorList']").search('Item') do |author|
           if(!author.nil?)
             autoren += author.inner_html + ", "
           end
         end
-        autoren += a.at("Item[@Name='LastAuthor']").inner_html
+        #autoren += a.at("Item[@Name='LastAuthor']").inner_html creates duplicate of LastAuthor, bad!
         entry[:Authors] = autoren
         entry[:Title] = a.at("Item[@Name='Title']").inner_html
         @pubLib << entry

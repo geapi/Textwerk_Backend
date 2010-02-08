@@ -2,4 +2,36 @@
 	#pageContainer{
 		margin-top: 10px;
 	}
+	/* the results div */ 
+	.pubmedResult{
+	  /*border: 1px solid #d1cbbb;
+	  margin-right:8px;*/ 
+	  padding: 2px; 
+	}
+	.resultHeading{ 
+		background-color: #f2f5f4;
+		
+	}
+	.pubmedId{ 
+		color: #433403;
+		
+	}
+	.pubMedDate{
+		color: #6590af;
+	}
+	.pubMedTitle{
+		font-weight: bold;
+	}
+	.pubMedAuthors{
+		font-style: italic;
+		
+	}
+
+	/* mods for 960.gs*/
+	.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16{
+		margin-bottom: 18px;
+	} 
+	.noMargin{
+		margin-bottom: 0;
+	}
 }
