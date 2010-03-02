@@ -34,7 +34,19 @@
 	.noMargin{
 		margin-bottom: 0;
 	}
-	.highlight{
+	.highlight1{
 		background-color: yellow;
+	}
+	.highlight2{
+		background-color: blue;
+	}
+	.highlight3{
+		background-color: red;
+	}
+	.highlight4{
+		background-color: green;
+	}
+	.chicken, .highlight{
+		background-color: #dfce00;
 	}
 }

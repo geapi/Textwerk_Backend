@@ -16,7 +16,7 @@ Element.addMethods({
               middleclone = middlebit.cloneNode(true),
               spannode = document.createElement('span');
 
-          spannode.className = 'highlight';
+          spannode.className = className; // 'highlight';
           spannode.appendChild(middleclone);
           middlebit.parentNode.replaceChild(spannode, middlebit);
           skip = 1;

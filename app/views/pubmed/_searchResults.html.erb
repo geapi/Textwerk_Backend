@@ -28,7 +28,7 @@ end %>
     <%= findSameAuthors().join(',') %> 
 	<%findSameAuthors().each do |author| %>
 	<script type="text/javascript" charset="utf-8">
-		$("searchResults2").highlight(<%= author %>, "testclass" );
+		$("searchResults2").highlight(<%= author %>, className="test");
 	</script>
 	<% end %>
 </div>
