@@ -13,15 +13,18 @@ module PubmedHelper
         end
 
       end
-    end  
+    end
+    cleanedDuplicates = Array.new  
     duplicates =""
     @authorHash.each do |dubs|
       if(dubs[1].split(",").size >1)
         dubs[1].split(",").each do |ids|
-          duplicates += "#{dubs[0]} in #{ids} <br/>"
+          duplicates += "#{dubs[0]}<br/>"
+          cleanedDuplicates.push "\"#{dubs[0]}\""
+          break
         end
       end
     end 
-    return duplicates
+    return cleanedDuplicates
   end
 end

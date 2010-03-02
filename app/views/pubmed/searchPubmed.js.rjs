@@ -1,1 +1,4 @@
 page.replace_html("searchResults2", :partial => "searchResults")
+#findSameAuthors().each do |author|
+#  page['searchResults2'].highlight(author) 
+#end

@@ -34,4 +34,7 @@
 	.noMargin{
 		margin-bottom: 0;
 	}
+	.highlight{
+		background-color: yellow;
+	}
 }

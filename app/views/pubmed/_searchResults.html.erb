@@ -1,4 +1,5 @@
 Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
+
 <h3>Results</h3>
 <% counter = 1%>
 <% newRow = true -%>
@@ -22,6 +23,12 @@ newRow = false
 end %> 
 <% counter += 1%>
 <% end -%>
+
 <div class="grid_12 alpha omega">
-    <%= findSameAuthors() %> 
+    <%= findSameAuthors().join(',') %> 
+	<%findSameAuthors().each do |author| %>
+	<script type="text/javascript" charset="utf-8">
+		$("searchResults2").highlight(<%= author %>, "testclass" );
+	</script>
+	<% end %>
 </div>
