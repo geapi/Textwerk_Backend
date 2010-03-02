@@ -1,40 +1,24 @@
 <%@pageTitle = "PubMed data retrieval and visualization"%>  
 <div class="grid_12 alpha omega">
 	<h1>Real Time Access to PubMed</h1>
-	<% form_tag({:action => "index"}, :method => :post) do -%>
+	<% form_remote_tag(	:before => "Element.show('spinner');",
+	 					:complete => "Element.hide('spinner');", 
+						:url => {:action => "searchPubmed", :only_path => false},
+						:with => "'q= +encodeURIComponent(text)")  do -%>
 	<%= label_tag "Please Enter your Search Terms" %><br/>
-	<input id="Please_Enter_your_Search_Terms" type="text" name="text"  size="40"></input><br/>
+	<input id="Please_Enter_your_Search_Terms" type="text" name="text"  size="40"></input><br/><br />
 	<input type="submit" value="Search &rarr;"/>
 	<% end -%>
-
-	<% if @params -%> 
-	Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
-	<h3>Results</h3>
-	<% counter = 1%>
-	<% newRow = true -%>
-	<% @pubLib.each do |entry| -%>
-	<% if newRow %> 
-	<div class="grid_12 alpha omega">
-	<% end %>
-		<div id="PM_<%= entry[:id]%>" class="grid_3 alpha pubmedResult">
-			<div id="A_<%= counter %>" class="resultHeading">(<%= counter %>) 
-				<span class="pubMedTitle"><%= entry[:Title]%></span> 
-				<div>Publish Date: <span class="pubMedDate"><%= entry[:Date]%></span></div>
-			</div>
-			<div id="authors_<%= entry[:id]%>">Authors: <span class="pubMedAuthors"><%= entry[:Authors]%></span></div> 
-			<div id="PMID_<%= entry[:id]%>" class="pubmedId">PMID: <%= entry[:id]%></div>
-		</div>
-	<% if counter.modulo(4) == 0
-		newRow = true %>
-	</div> 
-	<% else 
-	newRow = false
-	end %> 
-	<% counter += 1%>
-	<% end -%>
-	<% end -%> 
-	<div class="grid_12 alpha omega">
-	    <%= findSameAuthors() %> 
+	
+	<%#= render(:partial => "searchResults"%>
+	<%= image_tag '/images/loading.gif', :id =>'spinner',:style => "display:none;"	%>
+	<div id="searchResults2"><br />
+		
 	</div>
+
+	<% if @params %>
+	booh
+	
+	<% end %>
 	
 </div>
