@@ -2,9 +2,9 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 Element.addMethods({
-  highlight: function(element, term, className) {
-    function innerHighlight(element, term, className) {
-      className = className || 'highlight';
+  highlightNew: function(element, term, className) {
+    function innerHighlight2(element, term, className) {
+      className = className || highlight;
       term = (term || '').toUpperCase();
 
       var skip = 0;
@@ -24,11 +24,11 @@ Element.addMethods({
       }
       else if (element.nodeType == 1 && element.childNodes && !/(script|style)/i.test(element.tagName)) {
         for (var i = 0; i < element.childNodes.length; ++i)
-          i += innerHighlight(element.childNodes[i], term);
+          i += innerHighlight2(element.childNodes[i], term, className);
       }
       return skip;
     }
-    innerHighlight(element, term, className);
+    innerHighlight2(element, term, className);
     return element;
   },
   removeHighlight: function(element, term, className) {

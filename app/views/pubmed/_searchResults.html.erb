@@ -26,9 +26,15 @@ end %>
 
 <div class="grid_12 alpha omega">
     <%= findSameAuthors().join(',') %> 
+    <% counter = 1 %>
 	<%findSameAuthors().each do |author| %>
+	
 	<script type="text/javascript" charset="utf-8">
-		$("searchResults2").highlight(<%= author %>, className="test");
+		$("searchResults2").highlightNew(<%= author %>, "highlight<%=counter-%>");
 	</script>
+	<% counter+= 1%>
+	<% if counter > 4
+		 counter = 1
+	end%>
 	<% end %>
 </div>

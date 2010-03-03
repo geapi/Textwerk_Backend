@@ -5517,3 +5517,804 @@ Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-01 23:36:44) 
 Rendering pubmed/searchPubmed
 Rendered pubmed/_searchResults (2.2ms)
 Completed in 2615ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-03-03 09:31:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 75, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:31:58) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 69ms (View: 68, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:32:04) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (23.9ms)
+Completed in 2961ms (View: 48, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:32:29) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:32:30) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 2497ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:33:21) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:33:24) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (3.9ms)
+Completed in 3052ms (View: 13, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:36:23) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:36:25) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (3.9ms)
+Completed in 2853ms (View: 13, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:36:44) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:36:46) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (3.8ms)
+Completed in 4749ms (View: 13, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:37:40) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:37:41) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 2896ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:38:53) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:38:55) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.2ms)
+Completed in 2716ms (View: 67, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:41:51) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:41:53) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (3.1ms)
+Completed in 2951ms (View: 12, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:42:28) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:42:30) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (3.8ms)
+Completed in 2751ms (View: 14, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:44:42) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:44:45) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 3088ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:45:45) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:45:47) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.2ms)
+Completed in 2847ms (View: 12, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:47:31) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:47:32) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (4.2ms)
+Completed in 2862ms (View: 14, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:48:00) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:48:01) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:48:03) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 3137ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:48:43) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:48:45) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 3118ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 09:49:02) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 09:49:04) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 2528ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:19:40) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:19:44) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:19:46) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (2.3ms)
+Completed in 3013ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-03-03 10:23:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:26:53) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:26:56) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+ERROR: compiling _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults RAISED compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^
+Function body:           def _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults(local_assigns)
+            old_output_buffer = output_buffer;searchResults = local_assigns[:searchResults];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "Search Term: <strong>"; @output_buffer.concat(( params[:text] ).to_s); @output_buffer.concat "</strong> yielded "; @output_buffer.concat((@allEntries.size()).to_s); @output_buffer.concat " results, showing: "; @output_buffer.concat((@pubLib.size()).to_s); @output_buffer.concat " \n\n<h3>Results</h3>\n"
+
+
+;  counter = 1; @output_buffer.concat "\n"
+;  newRow = true 
+ @pubLib.each do |entry| 
+ if newRow ; @output_buffer.concat " \n<div class=\"grid_12 alpha omega\">\n"
+
+;  end ; @output_buffer.concat "\n\t<div id=\"PM_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"grid_3 alpha pubmedResult\">\n\t\t<div id=\"A_"
+; @output_buffer.concat(( counter ).to_s); @output_buffer.concat "\" class=\"resultHeading\">("; @output_buffer.concat(( counter ).to_s); @output_buffer.concat ") \n\t\t\t<span class=\"pubMedTitle\">"
+; @output_buffer.concat(( entry[:Title]).to_s); @output_buffer.concat "</span> \n\t\t\t<div>Publish Date: <span class=\"pubMedDate\">"
+; @output_buffer.concat(( entry[:Date]).to_s); @output_buffer.concat "</span></div>\n\t\t</div>\n\t\t<div id=\"authorsLabel_"
+
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\">Authors: <span id=\"authors_"; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubMedAuthors\">"; @output_buffer.concat(( entry[:Authors]).to_s); @output_buffer.concat "</span></div> \n\t\t<div id=\"PMID_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubmedId\">PMID: "; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "</div>\n\t</div>\n"
+
+;  if counter.modulo(4) == 0
+	newRow = true ; @output_buffer.concat "\n</div> \n"
+
+;  else 
+newRow = false
+end ; @output_buffer.concat " \n"
+;  counter += 1; @output_buffer.concat "\n"
+;  end 
+@output_buffer.concat "\n<div class=\"grid_12 alpha omega\">\n    "
+
+; @output_buffer.concat(( findSameAuthors().join(',') ).to_s); @output_buffer.concat " \n    "
+;  counter = 1 ; @output_buffer.concat "\n\t"
+; findSameAuthors().each do |author| ; @output_buffer.concat "\n\t\n\t<script type=\"text/javascript\" charset=\"utf-8\">\n\t\t$(\"searchResults2\").highlightNew("
+
+
+; @output_buffer.concat(( author ).to_s); @output_buffer.concat ", \"highlight"; @output_buffer.concat((counter).to_s); @output_buffer.concat "\");\n\t</script>\n\t"
+
+;  counter++; @output_buffer.concat "\n\t"
+;  if counter > 4; counter = 1; end; @output_buffer.concat "\n\t"
+;  end ; @output_buffer.concat "\n</div>"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:41:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:993:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:758:in `replace_html'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `instance_exec'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:129:in `with_output_buffer'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:577:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `update_page'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^) on line #35 of app/views/pubmed/_searchResults.html.erb:
+32: 	<script type="text/javascript" charset="utf-8">
+33: 		$("searchResults2").highlightNew(<%= author %>, "highlight<%=counter%>");
+34: 	</script>
+35: 	<% counter++%>
+36: 	<% if counter > 4; counter = 1; end%>
+37: 	<% end %>
+38: </div>
+
+    app/views/pubmed/_searchResults.html.erb:41:in `compile!'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+
+Rendered rescues/_trace (55.2ms)
+Rendered rescues/_request_and_response (22.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:27:27) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:27:29) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+ERROR: compiling _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults RAISED compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^
+Function body:           def _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults(local_assigns)
+            old_output_buffer = output_buffer;searchResults = local_assigns[:searchResults];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "Search Term: <strong>"; @output_buffer.concat(( params[:text] ).to_s); @output_buffer.concat "</strong> yielded "; @output_buffer.concat((@allEntries.size()).to_s); @output_buffer.concat " results, showing: "; @output_buffer.concat((@pubLib.size()).to_s); @output_buffer.concat " \n\n<h3>Results</h3>\n"
+
+
+;  counter = 1; @output_buffer.concat "\n"
+;  newRow = true 
+ @pubLib.each do |entry| 
+ if newRow ; @output_buffer.concat " \n<div class=\"grid_12 alpha omega\">\n"
+
+;  end ; @output_buffer.concat "\n\t<div id=\"PM_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"grid_3 alpha pubmedResult\">\n\t\t<div id=\"A_"
+; @output_buffer.concat(( counter ).to_s); @output_buffer.concat "\" class=\"resultHeading\">("; @output_buffer.concat(( counter ).to_s); @output_buffer.concat ") \n\t\t\t<span class=\"pubMedTitle\">"
+; @output_buffer.concat(( entry[:Title]).to_s); @output_buffer.concat "</span> \n\t\t\t<div>Publish Date: <span class=\"pubMedDate\">"
+; @output_buffer.concat(( entry[:Date]).to_s); @output_buffer.concat "</span></div>\n\t\t</div>\n\t\t<div id=\"authorsLabel_"
+
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\">Authors: <span id=\"authors_"; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubMedAuthors\">"; @output_buffer.concat(( entry[:Authors]).to_s); @output_buffer.concat "</span></div> \n\t\t<div id=\"PMID_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubmedId\">PMID: "; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "</div>\n\t</div>\n"
+
+;  if counter.modulo(4) == 0
+	newRow = true ; @output_buffer.concat "\n</div> \n"
+
+;  else 
+newRow = false
+end ; @output_buffer.concat " \n"
+;  counter += 1; @output_buffer.concat "\n"
+;  end 
+@output_buffer.concat "\n<div class=\"grid_12 alpha omega\">\n    "
+
+; @output_buffer.concat(( findSameAuthors().join(',') ).to_s); @output_buffer.concat " \n    "
+;  counter = 1 ; @output_buffer.concat "\n\t"
+; findSameAuthors().each do |author| ; @output_buffer.concat "\n\t\n\t<script type=\"text/javascript\" charset=\"utf-8\">\n\t\t$(\"searchResults2\").highlightNew("
+
+
+; @output_buffer.concat(( author ).to_s); @output_buffer.concat ", \"highlight"; @output_buffer.concat((counter).to_s); @output_buffer.concat "\");\n\t</script>\n\t"
+
+;  counter++; @output_buffer.concat "\n\t"
+;  if counter > 4
+		 counter = 1
+	end; @output_buffer.concat "\n\t"
+;  end ; @output_buffer.concat "\n</div>"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:43:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:993:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:758:in `replace_html'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `instance_exec'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:129:in `with_output_buffer'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:577:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `update_page'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^) on line #35 of app/views/pubmed/_searchResults.html.erb:
+32: 	<script type="text/javascript" charset="utf-8">
+33: 		$("searchResults2").highlightNew(<%= author %>, "highlight<%=counter%>");
+34: 	</script>
+35: 	<% counter++%>
+36: 	<% if counter > 4
+37: 		 counter = 1
+38: 	end%>
+
+    app/views/pubmed/_searchResults.html.erb:43:in `compile!'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+
+Rendered rescues/_trace (55.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:28:08) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:28:09) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+ERROR: compiling _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults RAISED compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^
+Function body:           def _run_erb_app47views47pubmed47_searchResults46html46erb_locals_object_searchResults(local_assigns)
+            old_output_buffer = output_buffer;searchResults = local_assigns[:searchResults];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "Search Term: <strong>"; @output_buffer.concat(( params[:text] ).to_s); @output_buffer.concat "</strong> yielded "; @output_buffer.concat((@allEntries.size()).to_s); @output_buffer.concat " results, showing: "; @output_buffer.concat((@pubLib.size()).to_s); @output_buffer.concat " \n\n<h3>Results</h3>\n"
+
+
+;  counter = 1; @output_buffer.concat "\n"
+;  newRow = true 
+ @pubLib.each do |entry| 
+ if newRow ; @output_buffer.concat " \n<div class=\"grid_12 alpha omega\">\n"
+
+;  end ; @output_buffer.concat "\n\t<div id=\"PM_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"grid_3 alpha pubmedResult\">\n\t\t<div id=\"A_"
+; @output_buffer.concat(( counter ).to_s); @output_buffer.concat "\" class=\"resultHeading\">("; @output_buffer.concat(( counter ).to_s); @output_buffer.concat ") \n\t\t\t<span class=\"pubMedTitle\">"
+; @output_buffer.concat(( entry[:Title]).to_s); @output_buffer.concat "</span> \n\t\t\t<div>Publish Date: <span class=\"pubMedDate\">"
+; @output_buffer.concat(( entry[:Date]).to_s); @output_buffer.concat "</span></div>\n\t\t</div>\n\t\t<div id=\"authorsLabel_"
+
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\">Authors: <span id=\"authors_"; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubMedAuthors\">"; @output_buffer.concat(( entry[:Authors]).to_s); @output_buffer.concat "</span></div> \n\t\t<div id=\"PMID_"
+; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "\" class=\"pubmedId\">PMID: "; @output_buffer.concat(( entry[:id]).to_s); @output_buffer.concat "</div>\n\t</div>\n"
+
+;  if counter.modulo(4) == 0
+	newRow = true ; @output_buffer.concat "\n</div> \n"
+
+;  else 
+newRow = false
+end ; @output_buffer.concat " \n"
+;  counter += 1; @output_buffer.concat "\n"
+;  end 
+@output_buffer.concat "\n<div class=\"grid_12 alpha omega\">\n    "
+
+; @output_buffer.concat(( findSameAuthors().join(',') ).to_s); @output_buffer.concat " \n    "
+;  counter = 1 ; @output_buffer.concat "\n\t"
+; findSameAuthors().each do |author| ; @output_buffer.concat "\n\t\n\t<script type=\"text/javascript\" charset=\"utf-8\">\n\t\t$(\"searchResults2\").highlightNew("
+
+
+; @output_buffer.concat(( author ).to_s); @output_buffer.concat ", \"highlight\"+\""; @output_buffer.concat((counter).to_s); @output_buffer.concat "\");\n\t</script>\n\t"
+
+;  counter++; @output_buffer.concat "\n\t"
+;  if counter > 4
+		 counter = 1
+	end; @output_buffer.concat "\n\t"
+;  end ; @output_buffer.concat "\n</div>"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:43:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:993:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:758:in `replace_html'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `instance_exec'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:578:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:129:in `with_output_buffer'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:577:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/prototype_helper.rb:1029:in `update_page'
+/Users/geapi/_SourceCode/tw/app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/geapi/_SourceCode/tw/app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/geapi/_SourceCode/tw/app/views/pubmed/_searchResults.html.erb:35: syntax error, unexpected ';'
+;  counter++; @output_buffer.concat "\n\t"
+             ^) on line #35 of app/views/pubmed/_searchResults.html.erb:
+32: 	<script type="text/javascript" charset="utf-8">
+33: 		$("searchResults2").highlightNew(<%= author %>, "highlight"+"<%=counter-%>");
+34: 	</script>
+35: 	<% counter++%>
+36: 	<% if counter > 4
+37: 		 counter = 1
+38: 	end%>
+
+    app/views/pubmed/_searchResults.html.erb:43:in `compile!'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/views/pubmed/searchPubmed.js.rjs:1:in `_run_rjs_app47views47pubmed47searchPubmed46js46rjs'
+    app/controllers/pubmed_controller.rb:68:in `searchPubmed'
+
+Rendered rescues/_trace (112.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-03-03 10:28:39) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:28:40) [POST]
+  Parameters: {"authenticity_token"=>"nWQ2FhWK6uJRnUKtLJJUDLvTTzgtvjsHxgjC5kpOSnE=", "text"=>"ovarian cancer p53"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (4.1ms)
+Completed in 2486ms (View: 74, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
