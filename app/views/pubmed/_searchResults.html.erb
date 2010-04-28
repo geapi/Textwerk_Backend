@@ -1,6 +1,10 @@
 Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
 
 <h3>Results</h3>
+<% if findSameAuthors().size > 0 %>
+<p>The following authors have authored more than one article in the result set:<br />
+<%= findSameAuthors().join(',') %></p>
+<%end %>
 <% counter = 1%>
 <% newRow = true -%>
 <% @pubLib.each do |entry| -%>
@@ -25,7 +29,6 @@ end %>
 <% end -%>
 
 <div class="grid_12 alpha omega">
-    <%= findSameAuthors().join(',') %> 
     <% counter = 1 %>
 	<%findSameAuthors().each do |author| %>
 	

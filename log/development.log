@@ -6318,3 +6318,182 @@ Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-03-03 10:28:40) 
 Rendering pubmed/searchPubmed
 Rendered pubmed/_searchResults (4.1ms)
 Completed in 2486ms (View: 74, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-28 06:16:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 116ms (View: 108, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 06:16:19) [GET]
+
+MissingSourceFile (no such file to load -- bio):
+  app/controllers/pubmed_controller.rb:1
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (145.5ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 06:18:25) [GET]
+
+MissingSourceFile (no such file to load -- bio):
+  app/controllers/pubmed_controller.rb:1
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-28 06:18:27) [GET]
+
+MissingSourceFile (no such file to load -- bio):
+  app/controllers/pubmed_controller.rb:1
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:18:48) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 142ms (View: 137, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:18:55) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"ovarian cancer p53", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (10.3ms)
+Completed in 4169ms (View: 61, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:23:09) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (6.9ms)
+Completed in 4296ms (View: 19, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:23:47) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:23:54) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (14.9ms)
+Completed in 4565ms (View: 45, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:26:29) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:26:34) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (19.6ms)
+Completed in 5186ms (View: 54, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:30:20) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:30:26) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (23.4ms)
+Completed in 5615ms (View: 144, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:31:25) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (23.3ms)
+Completed in 4758ms (View: 59, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:32:15) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"breast cancer", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (22.9ms)
+Completed in 4658ms (View: 58, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:32:35) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"ovarian cancer p53", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (19.3ms)
+Completed in 4136ms (View: 50, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:54:44) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:54:49) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"ovarian cancer p53", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (22.7ms)
+Completed in 4456ms (View: 143, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-04-28 06:55:20) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 06:55:24) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"ovarian cancer p53", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (23.1ms)
+Completed in 3929ms (View: 142, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-04-28 07:00:32) [POST]
+  Parameters: {"authenticity_token"=>"e8pq3SjW6pf1F3RhEzayW2Jvxr6gcLyYWZ+5HXZnDl4=", "text"=>"ovarian cancer p53", "_"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_searchResults (22.7ms)
+Completed in 5320ms (View: 144, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed]

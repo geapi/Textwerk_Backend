@@ -40,7 +40,7 @@ class PubmedController < ApplicationController
       'email' => 'geapi@cs.umd.edu',
     }
     options = {
-      'retmax' => 20,
+      'retmax' => 50,
       'email' => 'geapi@cs.umd.edu',
     }
     keywords = params[:text] # "ovarian cancer p53"
