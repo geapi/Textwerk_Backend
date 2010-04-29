@@ -20,7 +20,7 @@ module PubmedHelper
       if(dubs[1].split(",").size >1)
         dubs[1].split(",").each do |ids|
           duplicates += "#{dubs[0]}<br/>"
-          cleanedDuplicates.push "\"#{dubs[0]}\""
+          cleanedDuplicates.push "#{dubs[0]}"
           break
         end
       end

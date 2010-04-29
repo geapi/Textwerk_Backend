@@ -1,12 +1,12 @@
 <%@pageTitle = "PubMed data retrieval and visualization"%>  
 <div class="grid_12 alpha omega">
 	<h1>Real Time Access to PubMed</h1>
-	<% form_remote_tag(	:before => "Element.show('spinner');",
-	 					:complete => "Element.hide('spinner');", 
-						:url => {:action => "searchPubmed", :only_path => false},
-						:with => "'q= +encodeURIComponent(text)")  do -%>
-	<%= label_tag "Please Enter your Search Terms" %><br/>
-	<input id="Please_Enter_your_Search_Terms" type="text" name="text"  size="40"></input><br/><br />
+	<% form_remote_tag(	:before => "$('#searchResults2').hide();$('#spinner').show();",
+	 					:complete => "$('#spinner').hide();$('#searchResults2').show()", 
+						:url => {:action => "searchPubmed", :controller => "pubmed"},
+						:with => "term='+encodeURIComponent(text)") do -%>
+	<%= label_tag "Please Enter your Search Term(s)" %><br/>
+	<input id="Please_Enter_your_Search_Terms" type="text" name="term"  size="40"></input><br/><br />
 	<input type="submit" value="Search &rarr;"/>
 	<% end -%>
 	

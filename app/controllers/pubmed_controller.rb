@@ -43,7 +43,7 @@ class PubmedController < ApplicationController
       'retmax' => 50,
       'email' => 'geapi@cs.umd.edu',
     }
-    keywords = params[:text] # "ovarian cancer p53"
+    keywords = params[:term] # "ovarian cancer p53"
     # PubMed keyword search
     @pubLib = Array.new 
     @allEntries  = Bio::PubMed.esearch(keywords,optionsAll) 
@@ -65,7 +65,13 @@ class PubmedController < ApplicationController
       entry[:Title] = a.at("Item[@Name='Title']").inner_html
       @pubLib << entry
     end
-    respond_to do |result|
+    respond_to do |result|  
+      # result.html do
+      #   render :text => params[:term]
+      #end
+      #result.js do 
+      #   result.js 
+      #end
       result.js
     end
   end

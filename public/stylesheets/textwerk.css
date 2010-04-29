@@ -33,19 +33,21 @@
 	} 
 	.noMargin{
 		margin-bottom: 0;
-	}
-	.highlight1{
-		background-color: yellow;
-	}
-	.highlight2{
-		background-color: blue;
-	}
-	.highlight3{
-		background-color: red;
-	}
-	.highlight4{
-		background-color: green;
-	}
+	}  
+	/* colors based on: http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer.html -- 12 qualitative colors*/
+	.highlight1{background-color:#ffed6f;}
+	.highlight2{background-color:#ccebc5;}
+	.highlight3{background-color:#bc80bd;}
+	.highlight4{background-color:#d9d9d9;}
+	.highlight5{background-color: #fccde5;}
+	.highlight6{background-color: #b3de69;}
+	.highlight7{background-color: #fdb462;}
+	.highlight8{background-color: #80b1d3;}
+	.highlight9{background-color: #fb8072;}
+	.highlight10{background-color: #bebada;}
+	.highlight11{background-color: #ffffbc;}
+	.highlight12{background-color: #8dd3c7;}
+	
 	.chicken, .highlight{
 		background-color: #dfce00;
 	}

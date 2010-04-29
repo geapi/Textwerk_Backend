@@ -2,7 +2,7 @@ Search Term: <strong><%= params[:text] %></strong> yielded <%=@allEntries.size()
 
 <h3>Results</h3>
 <% if findSameAuthors().size > 0 %>
-<p>The following authors have authored more than one article in the result set:<br />
+<p>The following author(s) have authored more than one article in the result set:<br />
 <%= findSameAuthors().join(',') %></p>
 <%end %>
 <% counter = 1%>
@@ -32,11 +32,11 @@ end %>
     <% counter = 1 %>
 	<%findSameAuthors().each do |author| %>
 	
-	<script type="text/javascript" charset="utf-8">
-		$("searchResults2").highlightNew(<%= author %>, "highlight<%=counter-%>");
+	<script type="text/javascript" charset="utf-8">  
+		$('#searchResults2').highlight('<%= author %>', { element: 'span', className: 'highlight<%=counter-%>' });
 	</script>
 	<% counter+= 1%>
-	<% if counter > 4
+	<% if counter > 12
 		 counter = 1
 	end%>
 	<% end %>
