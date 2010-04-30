@@ -32,7 +32,7 @@ class PubmedController < ApplicationController
 
   def index    
   end
-
+  #if (request.xhr?)
   def searchPubmed
     @params = params.pretty_inspect
     optionsAll = {
@@ -66,13 +66,14 @@ class PubmedController < ApplicationController
       @pubLib << entry
     end
     respond_to do |result|  
-      # result.html do
-      #   render :text => params[:term]
-      #end
-      #result.js do 
-      #   result.js 
-      #end
-      result.js
+       result.html do
+         @needsPartial = true
+         render(:template => "pubmed/index")
+      end
+      result.js do 
+         result.js 
+      end
+      #result.js
     end
   end
 end

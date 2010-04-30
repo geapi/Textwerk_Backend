@@ -1,19 +1,16 @@
 <%@pageTitle = "PubMed data retrieval and visualization"%>  
 <div class="grid_12 alpha omega">
 	<h1>Real Time Access to PubMed</h1>
-	<% form_remote_tag(	:before => "$('#searchResults2').hide();$('#spinner').show();",
-	 					:complete => "$('#spinner').hide();$('#searchResults2').show()", 
-						:url => {:action => "searchPubmed", :controller => "pubmed"},
-						:with => "term='+encodeURIComponent(text)") do -%>
-	<%= label_tag "Please Enter your Search Term(s)" %><br/>
-	<input id="Please_Enter_your_Search_Terms" type="text" name="term"  size="40"></input><br/><br />
-	<input type="submit" value="Search &rarr;"/>
+	<% form_tag(:pubmed, :method => "get", :params =>{"term" => :term}) do %>
+		<%= label_tag "Please Enter your Search Term(s)" %><br/> 
+	 	<%= text_field_tag(:term) %><br />
+	  	<%= submit_tag("Search &rarr;", :name => nil) %>
 	<% end -%>
-	
-	<%#= render(:partial => "searchResults"%>
 	<br />
 	<%= image_tag '/images/loading.gif', :id =>'spinner',:style => "display:none;"	%>
 	<div id="searchResults2">
-		
+		<% if @needsPartial -%> <%# this is the case when the request comes via URL and not ajax %>
+		<%= render(:partial => "searchResults")%> 
+		<% end -%>
 	</div>
 </div>
