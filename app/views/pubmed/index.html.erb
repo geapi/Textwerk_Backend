@@ -1,16 +1,31 @@
 <%@pageTitle = "PubMed data retrieval and visualization"%>  
 <div class="grid_12 alpha omega">
-	<h1>Real Time Access to PubMed</h1>
-	<% form_tag(:pubmed, :method => "get", :params =>{"term" => :term}) do %>
-		<%= label_tag "Please Enter your Search Term(s)" %><br/> 
-	 	<%= text_field_tag(:term) %><br />
-	  	<%= submit_tag("Search &rarr;", :name => nil) %>
+	<h1><a href="/pubmed">Real Time Access to PubMed</a></h1> 
+	<div class="alpha grid_4 suffix_7">
+	<% form_tag(:pubmed, :method => "get") do %>
+		<%= label_tag "term", "Please Enter your Search Term(s)" %><br/> 
+	 	<%= text_field_tag (:term, nil, "size" => 40) %><br />
+	  	<%= submit_tag("Search &rarr;", :name => nil, :id => "startPubmedSearch") %> 
+	   <a class="floatRight pushTop10" href="/pubmed">reset results</a>
 	<% end -%>
 	<br />
-	<%= image_tag '/images/loading.gif', :id =>'spinner',:style => "display:none;"	%>
-	<div id="searchResults2">
-		<% if @needsPartial -%> <%# this is the case when the request comes via URL and not ajax %>
-		<%= render(:partial => "searchResults")%> 
+	<%= image_tag '/images/loading.gif', :id =>'spinner',:style => "display:none;"	%> 
+	</div>
+	<div id="searchResults2" class="grid_12 alpha omega">
+		<% if @triggerAjax -%> <%# back at the form, we got the params in the url, now load the results via ajax %>
+		<%#= render(:partial => "searchResults")%> 
+		<script type="text/javascript" charset="utf-8">
+		$('#searchResults2').hide();
+		$('#spinner').show();; 
+		jQuery.ajax({
+			complete:function(request){
+				$('#spinner').hide();
+				$('#searchResults2').show()
+				}, 
+			data:jQuery.param(jQuery(this).serializeArray()) + 'authenticity_token=' + encodeURIComponent('<%=@authenticity_token %>'), 
+			dataType:'script', type:'post', url:'/pubmed/searchPubmed?method=get&amp;term=<%=@theTerm%>'
+			}); 
+		</script>
 		<% end -%>
 	</div>
 </div>

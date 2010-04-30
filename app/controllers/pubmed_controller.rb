@@ -32,42 +32,45 @@ class PubmedController < ApplicationController
 
   def index    
   end
-  #if (request.xhr?)
-  def searchPubmed
-    @params = params.pretty_inspect
-    optionsAll = {
-      'retmax' => 10000,
-      'email' => 'geapi@cs.umd.edu',
-    }
-    options = {
-      'retmax' => 50,
-      'email' => 'geapi@cs.umd.edu',
-    }
-    keywords = params[:term] # "ovarian cancer p53"
-    # PubMed keyword search
-    @pubLib = Array.new 
-    @allEntries  = Bio::PubMed.esearch(keywords,optionsAll) 
-    @entries = Bio::PubMed.esearch(keywords,options)
-    medline = esummary(@entries.join(','))
-    d = Hpricot.XML(medline)
-    (d/:DocSum).each do |a|
-      entry = Hash.new
-      entry[:id] =  a.at('Id').inner_html
-      entry[:Date] = a.at("Item[@Name='PubDate']").inner_html
-      autoren =""
-      a.at("Item[@Name='AuthorList']").search('Item') do |author|
-        if(!author.nil?)
-          autoren += author.inner_html + ", "
+  #
+  def searchPubmed 
+      @params = params.pretty_inspect 
+      if (request.xhr?)
+      optionsAll = {
+        'retmax' => 10000,
+        'email' => 'geapi@cs.umd.edu',
+      }
+      options = {
+        'retmax' => 50,
+        'email' => 'geapi@cs.umd.edu',
+      }
+      @keywords = params[:term]
+      # PubMed keyword search
+      @pubLib = Array.new 
+      @allEntries  = Bio::PubMed.esearch(@keywords,optionsAll) 
+      @entries = Bio::PubMed.esearch(@keywords,options)
+      medline = esummary(@entries.join(','))
+      d = Hpricot.XML(medline)
+      (d/:DocSum).each do |a|
+        entry = Hash.new
+        entry[:id] =  a.at('Id').inner_html
+        entry[:Date] = a.at("Item[@Name='PubDate']").inner_html
+        autoren =""
+        a.at("Item[@Name='AuthorList']").search('Item') do |author|
+          if(!author.nil?)
+            autoren += author.inner_html + ", "
+          end
         end
+        #autoren += a.at("Item[@Name='LastAuthor']").inner_html creates duplicate of LastAuthor, bad!
+        entry[:Authors] = autoren
+        entry[:Title] = a.at("Item[@Name='Title']").inner_html
+        @pubLib << entry
       end
-      #autoren += a.at("Item[@Name='LastAuthor']").inner_html creates duplicate of LastAuthor, bad!
-      entry[:Authors] = autoren
-      entry[:Title] = a.at("Item[@Name='Title']").inner_html
-      @pubLib << entry
     end
     respond_to do |result|  
        result.html do
-         @needsPartial = true
+         @theTerm = params[:term]
+         @triggerAjax = true
          render(:template => "pubmed/index")
       end
       result.js do 
