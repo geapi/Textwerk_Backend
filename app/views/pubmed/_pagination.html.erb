@@ -1,0 +1,11 @@
+<div class='apple_pagination'>
+	<div class="left">
+	<%= getFirst() %>
+	</div>
+		<%= getPrevious() %> 
+	<span class="current">Page <%= @currentPage %><span class="normal"> of <%= @maxPageNumber %></span></span>
+	<%= getNext() %> 
+	<div class="right">
+	<%= getLast() %>   
+	</div>
+</div>

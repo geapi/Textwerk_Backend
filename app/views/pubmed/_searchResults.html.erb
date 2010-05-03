@@ -1,5 +1,5 @@
-Search Term: <strong><%= @keywords %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@pubLib.size()%> 
-
+Search Term: <strong><%= @keywords %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@startIndex+1%> to <%= @endIndex %>  
+<%= render (:partial => "pagination") %>
 <h3>Results</h3>
 <% if findSameAuthors().size > 0 %>
 <p>The following author(s) have authored more than one article in the result set:<br />
@@ -13,11 +13,12 @@ Search Term: <strong><%= @keywords %></strong> yielded <%=@allEntries.size()%> r
 <% end %>
 	<div id="PM_<%= entry[:id]%>" class="grid_3 alpha pubmedResult">
 		<div id="A_<%= counter %>" class="resultHeading">(<%= counter %>) 
-			<span class="pubMedTitle"><%= entry[:Title]%></span> 
+			<span class="pubMedTitle"><%=link_to "#{entry[:Title]}", "http://www.ncbi.nlm.nih.gov/pubmed/#{entry[:id]}"%></span> 
 			<div>Publish Date: <span class="pubMedDate"><%= entry[:Date]%></span></div>
 		</div>
 		<div id="authorsLabel_<%= entry[:id]%>">Authors: <span id="authors_<%= entry[:id]%>" class="pubMedAuthors"><%= entry[:Authors]%></span></div> 
-		<div id="PMID_<%= entry[:id]%>" class="pubmedId">PMID: <%= entry[:id]%></div>
+		<div id="PMID_<%= entry[:id]%>" class="pubmedId"><%=link_to "PMID:  #{entry[:id]}", "http://www.ncbi.nlm.nih.gov/pubmed/#{entry[:id]}"%></div>
+		<%if entry[:PMCid] != "none"%><div class="right"><%=link_to "Free Full Text", "http://www.ncbi.nlm.nih.gov/pmc/articles/#{entry[:PMCid]}", :target => "_blank" %></div><% end %>
 	</div>
 <% if counter.modulo(4) == 0
 	newRow = true %>
@@ -27,8 +28,9 @@ newRow = false
 end %> 
 <% counter += 1%>
 <% end -%>
-
-<div class="grid_12 alpha omega">
+    
+<div class="grid_12 alpha omega">   
+	<%= render (:partial => "pagination") %>
     <% counter = 1 %>
 	<%findSameAuthors().each do |author| %>
 	

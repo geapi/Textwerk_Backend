@@ -3,7 +3,7 @@
 	<h1><a href="/pubmed">Real Time Access to PubMed</a></h1> 
 	<div class="alpha grid_4 suffix_7">
 	<% form_tag(:pubmed, :method => "get") do %>
-		<%= label_tag "term", "Please Enter your Search Term(s)" %><br/> 
+		<%= label_tag "term", "Please Enter your Search Term(s)" %><br/>
 	 	<%= text_field_tag (:term, nil, "size" => 40) %><br />
 	  	<%= submit_tag("Search &rarr;", :name => nil, :id => "startPubmedSearch") %> 
 	   <a class="floatRight pushTop10" href="/pubmed">reset results</a>
@@ -23,7 +23,7 @@
 				$('#searchResults2').show()
 				}, 
 			data:jQuery.param(jQuery(this).serializeArray()) + 'authenticity_token=' + encodeURIComponent('<%=@authenticity_token %>'), 
-			dataType:'script', type:'post', url:'/pubmed/searchPubmed?method=get&amp;term=<%=@theTerm%>'
+			dataType:'script', type:'post', url:'/pubmed/searchPubmed?method=get&amp;term=<%=@theTerm%>&amp;page=<%=@currentPage%>'
 			}); 
 		</script>
 		<% end -%>
