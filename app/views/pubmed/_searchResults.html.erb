@@ -12,11 +12,16 @@ Search Term: <strong><%= @keywords %></strong> yielded <%=@allEntries.size()%> r
 <div class="grid_12 alpha omega">
 <% end %>
 	<div id="PM_<%= entry[:id]%>" class="grid_3 alpha pubmedResult">
-		<div id="A_<%= counter %>" class="resultHeading">(<%= counter %>) 
+		<div id="A_<%= counter %>" class="resultHeading">(<%= entry[:pubmedRank] %>) 
 			<span class="pubMedTitle"><%=link_to "#{entry[:Title]}", "http://www.ncbi.nlm.nih.gov/pubmed/#{entry[:id]}"%></span> 
 			<div>Publish Date: <span class="pubMedDate"><%= entry[:Date]%></span></div>
 		</div>
-		<div id="authorsLabel_<%= entry[:id]%>">Authors: <span id="authors_<%= entry[:id]%>" class="pubMedAuthors"><%= entry[:Authors]%></span></div> 
+		<div id="authorsLabel_<%= entry[:id]%>">Authors: <span id="authors_<%= entry[:id]%>" class="pubMedAuthors">
+		<% entry[:Authors].each do |author| %>
+		<%=link_to "#{author}", "http://www.ncbi.nlm.nih.gov/pubmed?term=\"#{author}\"[Author]", :target => "_blank" %>
+		 <%#= author %>
+		<% end %>
+		</span></div> 
 		<div id="PMID_<%= entry[:id]%>" class="pubmedId"><%=link_to "PMID:  #{entry[:id]}", "http://www.ncbi.nlm.nih.gov/pubmed/#{entry[:id]}"%></div>
 		<%if entry[:PMCid] != "none"%><div class="right"><%=link_to "Free Full Text", "http://www.ncbi.nlm.nih.gov/pmc/articles/#{entry[:PMCid]}", :target => "_blank" %></div><% end %>
 	</div>

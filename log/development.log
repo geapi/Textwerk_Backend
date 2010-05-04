@@ -15389,3 +15389,982 @@ Rendered pubmed/_pagination (0.3ms)
 Rendered pubmed/_pagination (0.3ms)
 Rendered pubmed/_searchResults (31.0ms)
 Completed in 2241ms (View: 53, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=3]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-04 05:19:11) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 124ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-04 05:36:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-05-04 05:36:36) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 103ms (View: 99, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-04 05:37:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-05-04 05:37:35) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:37:46) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:37:46) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (23.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (82.6ms)
+Completed in 3965ms (View: 230, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:38:22) [GET]
+  Parameters: {"term"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer+p53]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:38:22) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (37.6ms)
+Completed in 2875ms (View: 60, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:40:54) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (37.2ms)
+Completed in 3334ms (View: 60, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:45:33) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:45:33) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (109.0ms)
+Completed in 3162ms (View: 130, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:55:09) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:55:09) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (102.8ms)
+Completed in 3364ms (View: 145, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-05-04 05:55:54) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:55:59) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 98ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:55:59) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (97.7ms)
+Completed in 3018ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:57:54) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:57:54) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (182.8ms)
+Completed in 3870ms (View: 218, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:58:21) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:58:21) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.9ms)
+Completed in 2549ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:59:40) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 05:59:40) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.6ms)
+Completed in 3084ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:00:31) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:00:31) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.5ms)
+Completed in 2551ms (View: 223, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:00:40) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:00:40) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (100.3ms)
+Completed in 2385ms (View: 136, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:01:40) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:01:40) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.5ms)
+Completed in 2914ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:02:48) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:02:49) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.9ms)
+Completed in 3002ms (View: 222, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:03:44) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:03:44) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.6ms)
+Completed in 3960ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:04:19) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:04:20) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.0ms)
+Completed in 2867ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:05:19) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 101ms (View: 94, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:05:19) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.0ms)
+Completed in 3218ms (View: 220, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:06:07) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:06:08) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.1ms)
+Completed in 4067ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:06:36) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:06:36) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.4ms)
+Completed in 2994ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:08:01) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:08:02) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.9ms)
+Completed in 3104ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:08:34) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:08:35) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.7ms)
+Completed in 2826ms (View: 223, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:09:11) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:09:12) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.1ms)
+Completed in 2979ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:10:33) [GET]
+  Parameters: {"term"=>"chicken pox"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=chicken+pox]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:10:33) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.1ms)
+Completed in 2700ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:12:31) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:12:31) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.2ms)
+Completed in 3058ms (View: 137, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:23) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (104.8ms)
+Completed in 2785ms (View: 149, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:34) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:35) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (97.4ms)
+Completed in 2664ms (View: 133, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:44) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:44) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.4ms)
+Completed in 2557ms (View: 137, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:49) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=3]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:15:49) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (114.1ms)
+Completed in 2419ms (View: 153, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=3]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:16:01) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"4"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 102ms (View: 95, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=4]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:16:01) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"4"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (117.7ms)
+Completed in 3806ms (View: 158, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=4]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:16:12) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:16:12) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (97.7ms)
+Completed in 2347ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:33) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:34) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (186.3ms)
+Completed in 3984ms (View: 230, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:40) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:41) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.4ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (182.1ms)
+Completed in 2669ms (View: 220, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:52) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=3]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:17:52) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (197.8ms)
+Completed in 2942ms (View: 238, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=3]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:18:01) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"4"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=4]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:18:01) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"4"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (120.0ms)
+Completed in 2751ms (View: 160, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=4]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:18:12) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:18:12) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (99.1ms)
+Completed in 3091ms (View: 135, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:23:56) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:23:56) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (105.3ms)
+Completed in 2948ms (View: 147, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:02) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"232"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=232]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:03) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"232"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (31.9ms)
+Completed in 1993ms (View: 47, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=232]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:08) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"231"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=231]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:08) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"231"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (55.5ms)
+Completed in 2505ms (View: 82, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=231]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:14) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:24:14) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (97.9ms)
+Completed in 3368ms (View: 133, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:22) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:22) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.0ms)
+Completed in 2847ms (View: 134, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:27) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"232"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=232]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:28) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"232"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (32.1ms)
+Completed in 2057ms (View: 47, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=232]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:38) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:39) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (184.8ms)
+Completed in 2889ms (View: 220, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:48) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:48) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (101.1ms)
+Completed in 2613ms (View: 228, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=2]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:56) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:25:56) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (98.8ms)
+Completed in 2535ms (View: 224, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:26:56) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:26:56) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (162.7ms)
+Completed in 3605ms (View: 313, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:29:11) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:29:12) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"1"}
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/pubmed_controller.rb:67:in `*'
+  app/controllers/pubmed_controller.rb:67:in `getResults'
+  app/controllers/pubmed_controller.rb:49:in `searchPubmed'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.3ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:29:53) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:29:54) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (68.0ms)
+Completed in 2329ms (View: 93, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:30:14) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"100", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 17ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:30:14) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"100", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (451.4ms)
+Completed in 4996ms (View: 665, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:30:53) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"500", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:30:53) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"500", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (2346.5ms)
+Completed in 17548ms (View: 3307, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:31:56) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"100", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (352.3ms)
+Completed in 4766ms (View: 596, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:04) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"6944", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=6944]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:05) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"6944", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (1.7ms)
+Completed in 1769ms (View: 5, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=6944]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:26) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"1000", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=1000]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:27) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"1000", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.4ms)
+Rendered pubmed/_pagination (0.4ms)
+Rendered pubmed/_searchResults (2.5ms)
+Completed in 1655ms (View: 6, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=1000]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:36) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"500", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:32:36) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"500", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (2305.9ms)
+Completed in 17052ms (View: 3289, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:37:04) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "page"=>"14"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=14]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:37:05) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"14"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (76.1ms)
+Completed in 3052ms (View: 103, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=14&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:38:00) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"500", "page"=>"14"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=14&resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:38:00) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"500", "authenticity_token"=>"", "page"=>"14"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (1118.0ms)
+Completed in 14146ms (View: 1714, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=14&amp;resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:41:18) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"500", "page"=>"14"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=14&resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:41:18) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"500", "authenticity_token"=>"", "page"=>"14"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (986.7ms)
+Completed in 12393ms (View: 1626, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=14&amp;resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:25) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"50", "page"=>"14"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=14&resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:25) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"50", "authenticity_token"=>"", "page"=>"14"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (183.0ms)
+Completed in 4228ms (View: 359, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=14&amp;resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:42) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"50", "page"=>"13"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=13&resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:43) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"50", "authenticity_token"=>"", "page"=>"13"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (176.6ms)
+Completed in 3193ms (View: 237, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=13&amp;resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:58) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"50", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:42:59) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"50", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (160.3ms)
+Completed in 4333ms (View: 219, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=50]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:43:07) [GET]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "resultsPerPage"=>"500", "page"=>"1"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=chicken%20pox&page=1&resultsPerPage=500]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-04 06:43:08) [POST]
+  Parameters: {"method"=>"get", "term"=>"chicken pox", "amp"=>nil, "resultsPerPage"=>"500", "authenticity_token"=>"", "page"=>"1"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.4ms)
+Rendered pubmed/_searchResults (2373.0ms)
+Completed in 16255ms (View: 3380, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=chicken%20pox&amp;page=1&amp;resultsPerPage=500]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-04 06:46:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]

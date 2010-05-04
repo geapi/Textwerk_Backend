@@ -2,7 +2,7 @@ module PubmedHelper
   def findSameAuthors() 
     @authorHash = Hash.new
     @pubLib.each do |entry| 
-      authors = entry[:Authors].split(', ') 
+      authors = entry[:Authors] #.split(', ') 
       #puts "#{entry[:id]}"
       authors.each do |author|
         if (@authorHash.key?(author))
@@ -30,28 +30,28 @@ module PubmedHelper
   def getFirst
     first = "" 
     if (@currentPage.to_i > 2)
-      first = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=1\" class=\"prev_page\">| &laquo; First</a>"
+      first = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=1&amp;resultsPerPage=#{@resultsPerPage}\" class=\"prev_page\">| &laquo; First</a>"
     end 
     first
   end
   def getLast
     lastPage = ""
     if (@currentPage.to_i < @maxPageNumber -2)
-      lastPage = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@maxPageNumber}\" rel=\"next\">Last &raquo; |</a>"
+      lastPage = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@maxPageNumber}&amp;resultsPerPage=#{@resultsPerPage}\" rel=\"next\">Last &raquo; |</a>"
     end 
     lastPage
   end
   def getNext 
     nextPage = ""
     if (@currentPage.to_i < @maxPageNumber)
-      nextPage = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@currentPage.to_i+1}\" rel=\"next\">Next &raquo;</a>"
+      nextPage = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@currentPage.to_i+1}&amp;resultsPerPage=#{@resultsPerPage}\" rel=\"next\">Next &raquo;</a>"
     end 
     nextPage
   end
   def getPrevious 
     previous = ""
     if (@currentPage.to_i > 1)
-      previous = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@currentPage.to_i-1}\" class=\"prev_page\">&laquo; Previous</a>"
+      previous = "<a href=\"/pubmed/searchPubmed?method=get&amp;term=#{@keywords}&amp;page=#{@currentPage.to_i-1}&amp;resultsPerPage=#{@resultsPerPage}\" class=\"prev_page\">&laquo; Previous</a>"
     end
     previous
   end

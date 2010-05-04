@@ -23,7 +23,7 @@
 				$('#searchResults2').show()
 				}, 
 			data:jQuery.param(jQuery(this).serializeArray()) + 'authenticity_token=' + encodeURIComponent('<%=@authenticity_token %>'), 
-			dataType:'script', type:'post', url:'/pubmed/searchPubmed?method=get&amp;term=<%=@theTerm%>&amp;page=<%=@currentPage%>'
+			dataType:'script', type:'post', url:'/pubmed/searchPubmed?method=get&amp;term=<%=@theTerm%>&amp;page=<%=@currentPage%>&amp;resultsPerPage=<%=@resultsPerPage%>'
 			}); 
 		</script>
 		<% end -%>

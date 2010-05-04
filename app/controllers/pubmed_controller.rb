@@ -30,7 +30,8 @@ class PubmedController < ApplicationController
   # does a 2 stage pull, 1) get ids for all results up to the specified retmax, 2) get the "full results" for the current page
   def searchPubmed 
       @params = params.pretty_inspect
-      @resultsPerPage = 30 
+      @resultsPerPage = params[:resultsPerPage] 
+      @resultsPerPage = @resultsPerPage.to_i == 0 ? 20 : @resultsPerPage
       @currentPage = params[:page]
       if (request.xhr?)
       optionsAll = { # used to get the total number of results and all PMids for them
@@ -45,7 +46,7 @@ class PubmedController < ApplicationController
       # pull at idds
       @allEntries  = Bio::PubMed.esearch(@keywords,optionsAll) 
       @currentPage = @currentPage.to_i == 0 ? 1 : @currentPage   # if we don't get the page, assume we want the first one
-      @pubLib = getResults(@allEntries,@currentPage.to_i,@resultsPerPage)
+      @pubLib = getResults(@allEntries,@currentPage.to_i,@resultsPerPage.to_i)
       @maxPageNumber = (@allEntries.size().to_f/@resultsPerPage.to_f).ceil #make sure we always get the bigger number of pages
     end
     respond_to do |result|  
@@ -67,15 +68,17 @@ class PubmedController < ApplicationController
     @endIndex = @allEntries.size() <= ((page-1)*resultsPerPage)+resultsPerPage ? @allEntries.size() :  ((page-1)*resultsPerPage)+resultsPerPage
     #puts "#{@startIndex} to #{@endIndex}"
     medline = esummary(allEntryIds.values_at(@startIndex ... @endIndex).join(','))
-    d = Hpricot.XML(medline)
+    d = Hpricot.XML(medline)  
+    pubmedRank = @startIndex+1
     (d/:DocSum).each do |a|
       entry = Hash.new
+      entry[:pubmedRank] = pubmedRank
       entry[:id] =  a.at('Id').inner_html
       entry[:Date] = a.at("Item[@Name='PubDate']").inner_html
-      autoren =""
+      autoren = Array.new
       a.at("Item[@Name='AuthorList']").search('Item') do |author|
         if(!author.nil?)
-          autoren += author.inner_html + ", "
+          autoren.push "#{author.inner_html}"
         end
       end
       #autoren += a.at("Item[@Name='LastAuthor']").inner_html creates duplicate of LastAuthor, bad!
@@ -87,6 +90,7 @@ class PubmedController < ApplicationController
       end
       entry[:PMCid] = pmcid
       pubLib << entry
+      pubmedRank += 1
     end 
     pubLib
   end

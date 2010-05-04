@@ -1,4 +1,8 @@
 @media screen{
+	a, a:hover {
+		color:#2222CC;
+	}
+	
 	#pageContainer{
 		margin-top: 10px;
 	}
@@ -12,20 +16,42 @@
 		background-color: #f2f5f4;
 		
 	}
-	.pubmedId, .pubmedId a{ 
-		color: #433403;
-		float:left;
-		
+	.pubmedId{ 
+		color: #696969;
+		float:left; 
+	} 
+	.pubmedId a, pubMedId a:visited{ 
+		color: #696969;
+		text-decoration: none;
+		border-bottom:1px dotted #696969;   
 	}
+	.pubmedId a:hover{
+		 color: #2222CC; 
+		 border-bottom:1px solid #2222CC;  
+		text-decoration: none;
+		} 
 	.pubMedDate{
 		color: #6590af;
 	}
 	.pubMedTitle{
+		
 		font-weight: bold;
+	}
+	.pubMedTitle a:visited{
+		color:#CC3300;
 	}
 	.pubMedAuthors{
 		font-style: italic;
 		
+	}
+	.pubMedAuthors a, .pubMedAuthors a:visited, .pubMedAuthors a:hover{
+		text-decoration: none;
+		color:#000;  
+		border-bottom:1px dotted black;
+	}
+	.pubMedAuthors a:hover{
+		color: #2222CC; 
+		border-bottom:1px solid #2222CC; 
 	}
 
 	/* mods for 960.gs*/
