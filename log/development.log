@@ -16368,3 +16368,569 @@ Processing SiteController#index (for 127.0.0.1 at 2010-05-04 06:46:55) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-06 05:58:15) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 150ms (View: 142, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-26 06:42:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 124ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-26 06:42:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-05-26 06:42:44) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:42:50) [GET]
+  Parameters: {"term"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer+p53]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:42:51) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (3.1ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (119.7ms)
+Completed in 3231ms (View: 272, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:19) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "resultsPerPage"=>"20", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancer%20p53&page=2&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:20) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (115.9ms)
+Completed in 2612ms (View: 150, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=2&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:25) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "resultsPerPage"=>"20", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancer%20p53&page=3&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:25) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (85.8ms)
+Completed in 2937ms (View: 195, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=3&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:36) [GET]
+  Parameters: {"term"=>"breast cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=breast+cancer]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:43:36) [POST]
+  Parameters: {"method"=>"get", "term"=>"breast cancer", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (74.9ms)
+Completed in 3116ms (View: 101, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=breast%20cancer&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:12) [GET]
+  Parameters: {"term"=>"broken legs"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 95ms (View: 88, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=broken+legs]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:12) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken legs", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (67.9ms)
+Completed in 2198ms (View: 174, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20legs&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:37) [GET]
+  Parameters: {"term"=>"broken legs", "resultsPerPage"=>"100"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=broken+legs&resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:37) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken legs", "amp"=>nil, "resultsPerPage"=>"100", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (310.4ms)
+Completed in 4553ms (View: 519, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20legs&amp;page=&amp;resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:59) [GET]
+  Parameters: {"method"=>"get", "term"=>"broken legs", "resultsPerPage"=>"100", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=broken%20legs&page=2&resultsPerPage=100]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-05-26 06:45:59) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken legs", "amp"=>nil, "resultsPerPage"=>"100", "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (164.5ms)
+Completed in 2047ms (View: 201, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20legs&amp;page=2&amp;resultsPerPage=100]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-05-27 06:32:18) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 161ms (View: 153, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 06:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/static/sproutcore/standard_theme/en/52920dfdad7f0329367ed5692a2fc96881122edb/stylesheet.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 06:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/static/sproutcore/animation/en/d668a260bcbda390906966da90b76c89f90b6250/javascript.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 06:41:05) [GET]
+
+ActionController::RoutingError (No route matches "/static/sproutweets/en/bbc69170292b73a32fe94025139af8064ddc56f0/account/verify_credentials.json" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-06-10 06:25:00) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 248ms (View: 243, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-06-10 06:25:05) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 194ms (View: 189, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:10) [GET]
+  Parameters: {"term"=>"ovarian cancer p53"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer+p53]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:10) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (20.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (163.2ms)
+Completed in 3165ms (View: 238, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:36) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "resultsPerPage"=>"20", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 18ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancer%20p53&page=2&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:36) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (118.1ms)
+Completed in 3544ms (View: 154, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=2&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:43) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "resultsPerPage"=>"20", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 18ms (View: 8, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancer%20p53&page=3&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-06-10 06:25:43) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer p53", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_pagination (0.3ms)
+Rendered pubmed/_searchResults (100.2ms)
+Completed in 2852ms (View: 136, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer%20p53&amp;page=3&amp;resultsPerPage=20]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-07-21 05:17:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-07-21 05:17:35) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:43) [GET]
+  Parameters: {"term"=>"ovarian cancers"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancers]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:44) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancers", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (1.0ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (34.1ms)
+Completed in 2684ms (View: 49, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancers&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:53) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancers", "resultsPerPage"=>"20", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancers&page=2&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:53) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancers", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_searchResults (36.2ms)
+Completed in 2570ms (View: 97, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancers&amp;page=2&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:59) [GET]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancers", "resultsPerPage"=>"20", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=ovarian%20cancers&page=3&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:17:59) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancers", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (75.5ms)
+Completed in 2661ms (View: 84, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancers&amp;page=3&amp;resultsPerPage=20]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-07-21 05:20:16) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:24) [GET]
+  Parameters: {"term"=>"broken leg"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=broken+leg]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:24) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (19.5ms)
+Completed in 1567ms (View: 26, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20leg&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:34) [GET]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "resultsPerPage"=>"20", "page"=>"2"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=broken%20leg&page=2&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:34) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"2"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (19.3ms)
+Completed in 1424ms (View: 26, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20leg&amp;page=2&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:39) [GET]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "resultsPerPage"=>"20", "page"=>"3"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=broken%20leg&page=3&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:39) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"3"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (17.4ms)
+Completed in 1459ms (View: 24, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20leg&amp;page=3&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:58) [GET]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "resultsPerPage"=>"20", "page"=>"4"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&term=broken%20leg&page=4&resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 05:20:58) [POST]
+  Parameters: {"method"=>"get", "term"=>"broken leg", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>"4"}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (17.1ms)
+Completed in 1404ms (View: 73, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=broken%20leg&amp;page=4&amp;resultsPerPage=20]
+
+
+Processing PubmedController#index (for 127.0.0.1 at 2010-07-21 06:21:37) [GET]
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:21:39) [GET]
+  Parameters: {"term"=>""}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:21:39) [POST]
+  Parameters: {"method"=>"get", "term"=>"", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (0.7ms)
+Completed in 940ms (View: 2, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:36:41) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+NoMethodError (undefined method `json?' for #<ActionController::Request:0x10401fc70>):
+  app/controllers/pubmed_controller.rb:36:in `searchPubmed'
+
+Rendered rescues/_trace (25.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:36:57) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:36:57) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.5ms)
+Rendered pubmed/_pagination (0.2ms)
+Rendered pubmed/_searchResults (37.4ms)
+Completed in 2528ms (View: 105, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:37:22) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map):
+  app/controllers/pubmed_controller.rb:62:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:52:in `searchPubmed'
+
+Rendered rescues/_trace (28.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-07-21 06:38:00) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:39:28) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 06:39:28) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (30.0ms)
+Completed in 2472ms (View: 90, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:39:49) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+NoMethodError (undefined method `json_for_result' for #<PubmedController:0x10427f290>):
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:50:in `map'
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:39:in `searchPubmed'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:40:27) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+NoMethodError (undefined method `pubmedRank' for #<Hash:0x1041d7ef0>):
+  app/controllers/pubmed_controller.rb:108:in `json_for_results'
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:50:in `map'
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:39:in `searchPubmed'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:41:26) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+NoMethodError (undefined method `Author' for #<Hash:0x1041f9d20>):
+  app/controllers/pubmed_controller.rb:109:in `json_for_results'
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:50:in `map'
+  app/controllers/pubmed_controller.rb:50:in `searchPubmed'
+  app/controllers/pubmed_controller.rb:39:in `searchPubmed'
+
+Rendered rescues/_trace (76.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:42:01) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Completed in 2672ms (View: 3, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer&format=json]
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 06:42:28) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Completed in 2535ms (View: 4, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?term=ovarian+cancer&format=json]
+
+
+Processing SiteController#searchPubmed (for 127.0.0.1 at 2010-07-21 07:35:13) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+ActionController::UnknownAction (No action responded to searchPubmed. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#searchPubmed (for 127.0.0.1 at 2010-07-21 07:36:24) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+
+ActionController::UnknownAction (No action responded to searchPubmed. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 07:38:17) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Rendering template within layouts/application
+Rendering pubmed/index
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/searchPubmed?term=ovarian+cancer]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 07:38:17) [POST]
+  Parameters: {"method"=>"get", "term"=>"ovarian cancer", "amp"=>nil, "resultsPerPage"=>"20", "authenticity_token"=>"", "page"=>""}
+Rendering pubmed/searchPubmed
+Rendered pubmed/_pagination (0.6ms)
+Rendered pubmed/_pagination (0.1ms)
+Rendered pubmed/_searchResults (81.4ms)
+Completed in 2786ms (View: 96, DB: 0) | 200 OK [http://localhost/pubmed/searchPubmed?method=get&amp;term=ovarian%20cancer&amp;page=&amp;resultsPerPage=20]
+
+
+Processing PubmedController#searchPubmed (for 127.0.0.1 at 2010-07-21 07:38:25) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Completed in 2617ms (View: 4, DB: 0) | 200 OK [http://localhost/searchPubmed?term=ovarian+cancer]
+
+
+Processing PubmedController#searchPubmed to json (for 127.0.0.1 at 2010-07-21 07:39:09) [GET]
+  Parameters: {"term"=>"ovarian cancer"}
+Completed in 2470ms (View: 4, DB: 0) | 200 OK [http://localhost/searchPubmed?term=ovarian+cancer&format=json]

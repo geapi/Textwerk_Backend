@@ -29,34 +29,26 @@ class PubmedController < ApplicationController
   # - id, Date, Authors (comma sep.), Title, PMCid (if found, for full text access) as keys to retrieve
   # does a 2 stage pull, 1) get ids for all results up to the specified retmax, 2) get the "full results" for the current page
   def searchPubmed 
-      @params = params.pretty_inspect
-      @resultsPerPage = params[:resultsPerPage] 
-      @resultsPerPage = @resultsPerPage.to_i == 0 ? 20 : @resultsPerPage
-      @currentPage = params[:page]
-      if (request.xhr?)
-      optionsAll = { # used to get the total number of results and all PMids for them
-        'retmax' => 10000,
-        'email' => 'geapi@cs.umd.edu',
-      }
-      options = {   # sets the "page" maximum of results
-        'retmax' => 50,
-        'email' => 'geapi@cs.umd.edu',
-      }
-      @keywords = params[:term]
-      # pull at idds
-      @allEntries  = Bio::PubMed.esearch(@keywords,optionsAll) 
-      @currentPage = @currentPage.to_i == 0 ? 1 : @currentPage   # if we don't get the page, assume we want the first one
-      @pubLib = getResults(@allEntries,@currentPage.to_i,@resultsPerPage.to_i)
-      @maxPageNumber = (@allEntries.size().to_f/@resultsPerPage.to_f).ceil #make sure we always get the bigger number of pages
+    @params = params.pretty_inspect
+    @resultsPerPage = params[:resultsPerPage] 
+    @resultsPerPage = @resultsPerPage.to_i == 0 ? 20 : @resultsPerPage
+    @currentPage = params[:page]
+    if (request.xhr?)
+      initiateSearch
     end
     respond_to do |result|  
-       result.html do
-         @theTerm = params[:term]
-         @triggerAjax = true
-         render(:template => "pubmed/index")
+      result.html do
+        @theTerm = params[:term]
+        @triggerAjax = true
+        render(:template => "pubmed/index")
       end
       result.js do 
-         result.js 
+        result.js 
+      end
+      result.json do
+        initiateSearch
+        results = @pubLib.map {|result| json_for_results(result) }
+        render :json => { :content => results }
       end
       #result.js
     end
@@ -93,5 +85,31 @@ class PubmedController < ApplicationController
       pubmedRank += 1
     end 
     pubLib
+  end
+  protected
+  # kicks of the search
+  def initiateSearch
+    optionsAll = { # used to get the total number of results and all PMids for them
+      'retmax' => 10000,
+      'email' => 'geapi@cs.umd.edu',
+    }
+    options = {   # sets the "page" maximum of results
+      'retmax' => 50,
+      'email' => 'geapi@cs.umd.edu',
+    }
+    @keywords = params[:term]
+    # pull at idds
+    @allEntries  = Bio::PubMed.esearch(@keywords,optionsAll) 
+    @currentPage = @currentPage.to_i == 0 ? 1 : @currentPage   # if we don't get the page, assume we want the first one
+    @pubLib = getResults(@allEntries,@currentPage.to_i,@resultsPerPage.to_i)
+    @maxPageNumber = (@allEntries.size().to_f/@resultsPerPage.to_f).ceil #make sure we always get the bigger number of pages
+  end
+  def json_for_results(result)
+    { :guid => result[:pubmedRank],
+      :author => result[:Authors],
+      :title => result[:Title],
+      :date => result[:Date],
+      :pmid => result[:id]
+    }
   end
 end

@@ -26,7 +26,9 @@ module PubmedHelper
       end
     end 
     return cleanedDuplicates
-  end 
+  end
+  
+  # helpers for the pagination 
   def getFirst
     first = "" 
     if (@currentPage.to_i > 2)
