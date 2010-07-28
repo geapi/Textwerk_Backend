@@ -1,5 +1,5 @@
 Search Term: <strong><%= @keywords %></strong> yielded <%=@allEntries.size()%> results, showing: <%=@startIndex+1%> to <%= @endIndex %>  
-<%= render (:partial => "pagination") %>
+<%= render(:partial => "pagination") %>
 <h3>Results</h3>
 <% if findSameAuthors().size > 0 %>
 <p>The following author(s) have authored more than one article in the result set:<br />
@@ -35,7 +35,7 @@ end %>
 <% end -%>
     
 <div class="grid_12 alpha omega">   
-	<%= render (:partial => "pagination") %>
+	<%= render(:partial => "pagination") %>
     <% counter = 1 %>
 	<%findSameAuthors().each do |author| %>
 	

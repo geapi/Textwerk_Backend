@@ -4,7 +4,7 @@
 	<div class="alpha grid_4 suffix_7">
 	<% form_tag(:pubmed, :method => "get") do %>
 		<%= label_tag "term", "Please Enter your Search Term(s)" %><br/>
-	 	<%= text_field_tag (:term, nil, "size" => 40) %><br />
+	 	<%= text_field_tag(:term, nil, "size" => 40) %><br />
 	  	<%= submit_tag("Search &rarr;", :name => nil, :id => "startPubmedSearch") %> 
 	   <a class="floatRight pushTop10" href="/pubmed">reset results</a>
 	<% end -%>

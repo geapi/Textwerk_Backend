@@ -93,8 +93,8 @@ class PubmedController < ApplicationController
           'retmax' => 10000,
           'email' => 'geapi@cs.umd.edu',
         }
-        @allEntries  = Bio::PubMed.esearch(params[:term],optionsAll) 
-        render :json => { :resultCount => @allEntries.size, :terms => params[:term] }
+        allEntries  = Bio::PubMed.esearch(params[:term],optionsAll) 
+        render :json => { :resultCount => allEntries.size, :terms => params[:term] }
       end
     end
   end
@@ -109,7 +109,7 @@ class PubmedController < ApplicationController
       'retmax' => 50,
       'email' => 'geapi@cs.umd.edu',
     }
-    @keywords = 
+    @keywords = params[:term]
     # pull at idds
     @allEntries  = Bio::PubMed.esearch(@keywords,optionsAll) 
     @currentPage = @currentPage.to_i == 0 ? 1 : @currentPage   # if we don't get the page, assume we want the first one
@@ -119,9 +119,9 @@ class PubmedController < ApplicationController
   def json_for_results(result)
     { :guid => result[:pubmedRank],
       :authors => result[:Authors],
-      :pmid => result[:id],
+      :title => result[:Title],
       :date => result[:Date],
-      :title => result[:Title] 
+      :pmid => result[:id]
     }
   end
 end

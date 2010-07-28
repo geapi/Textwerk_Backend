@@ -1,0 +1,150 @@
+/* >>>>>>>>>> BEGIN source/resources/login_pane.css */
+.login-pane {
+  -webkit-border-radius: 6px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4C74A9), to(#254981));
+  background-color: #254981;
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.6);
+}
+
+.sc-pane.login-pane > .sc-view {
+  background-color: transparent;
+}
+
+.sc-pane.login-pane .sc-label-view {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(169, 195, 228);
+  text-shadow: rgb(17, 42, 73) 0px -1px 0px;
+  -webkit-text-stroke: 0.5px transparent;
+}
+
+.sc-pane.login-pane .error-message {
+  font-size: 12px;
+}
+/* >>>>>>>>>> BEGIN source/resources/sproutweets.css */
+.sc-theme .sc-pane.sc-main {
+  background-color: #798390;
+  background-image: url('/static/sproutweets/en/bbc69170292b73a32fe94025139af8064ddc56f0/resources/images/main_bg.png');
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+.sc-button-view label {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(169, 195, 228) !important;
+  text-shadow: rgb(17, 42, 73) 0px -1px 0px;
+  -webkit-text-stroke: 0.5px transparent;
+}
+
+.sc-label-view {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+.status-view {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#43484E), color-stop(0.1,#4D5258), color-stop(0.9, #393E46), to(#30333A));
+  background-color: #697283;
+  border-bottom: 1px solid #2B2B2B;
+}
+
+.status-view .profile-image {
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+}
+
+.status-view .username {
+  font-size: 42px;
+  line-height: 42px;
+  color: white;
+  text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+  -webkit-text-stroke: 0.5px transparent;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.status-view .count {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+}
+
+.status-view .label {
+  color: rgb(169, 195, 228);
+  text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+}
+
+.loading-label {
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+  text-shadow: rgb(17, 42, 73) 0px -1px 1px;
+  -webkit-text-stroke: 0.5px transparent;
+}
+/* >>>>>>>>>> BEGIN source/resources/timeline.css */
+.sc-theme .sc-list-view.timeline-view {
+  background-color: transparent;
+}
+
+.tweet-list-item {
+    -webkit-transform: translate3d(0,0,0);
+/*  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(250,250,255,0.8)), to(rgba(240,240,255,0.7)));*/
+  background-color: rgb(250,250,255);
+  border-bottom: 1px solid #999;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+/*  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.6);*/
+}
+
+.tweet-list-item .screen-name {
+  position: absolute;
+  left: 70px;
+  height: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tweet-list-item.sel .screen-name {
+  color: black;
+/*  text-shadow: 0px 0px 4px rgba(255,255,255,0.6);*/
+}
+
+.tweet-list-item .screen-name .rt-label {
+  font-weight: normal;
+  font-size: 12;
+  font-style: italic;
+  color: #232323;
+}
+
+.tweet-list-item.at-you {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(250,250,100,0.8)), to(rgba(240,240,80,0.7)));
+    border-bottom: 1px solid #A9AA31;
+}
+
+.tweet-list-item.retweet {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(230,200,230,0.8)), to(rgba(200,180,200,0.7)));
+    border-bottom: 1px solid #9E5DA9;
+}
+
+.tweet-list-item img {
+  position: absolute;
+  width: 48px;
+  left: 7px;
+  top: 7px;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+}
+
+.tweet-list-item .text {
+  position: absolute;
+  left: 70px;
+  padding-right: 10px;
+  top: 18px;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0.2px;
+/*  -webkit-text-stroke: 0.5px transparent;*/
+/*  text-shadow: rgba(0,0,0,0.6) 0px 0px 4px;*/
+}
