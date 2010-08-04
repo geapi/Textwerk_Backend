@@ -1,2 +1,5 @@
 <%@pageTitle = "Page 1"%>
+<% @docnumbers.each_with_index do |number, i| -%>
+<%= "#{i+1}) #{number}" %> <br />
+<% end %>
 
