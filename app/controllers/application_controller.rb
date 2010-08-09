@@ -7,9 +7,9 @@ class ApplicationController < ActionController::Base
   
   # Scrub sensitive parameters from your log
   filter_parameter_logging :password
-  def readDoc
-    docname = "lib/data/2007-01-30-afaction-corpus.sgml"
-    docnumbers = Array.new
+  def getDoc
+    doc = DocumentInfo.find(:first)
+    docContent = DocumentContent.find(:first, :conditions => "doc_name = '#{doc.doc_name}'")
     doc = open(docname) { |f| Hpricot(f) }
     doc.search("doc") do |document|
       #puts  "#{(document/"docno").first.inner_html}"

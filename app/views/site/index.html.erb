@@ -1,5 +1,9 @@
 <%@pageTitle = "Page 1"%>
-<% @docnumbers.each_with_index do |number, i| -%>
-<%= "#{i+1}) #{number}" %> <br />
-<% end %>
+<% @doc.each_with_index do |d, i| %>
+<% if i < 10%>
+<%= "<h1>#{d.doc_name}</h1> <br/>" %>
+<%= "#{@docContent[i].content} <br/>" %>
+<% end%>
+<% end%>
+<%#= @docContent.content %>
 
