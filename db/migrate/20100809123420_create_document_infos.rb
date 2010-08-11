@@ -8,7 +8,7 @@ class CreateDocumentInfos < ActiveRecord::Migration
       t.string :description
       t.string :date
       t.string :submitter_type
-      t.string :postion
+      t.string :position
 
       t.timestamps
     end

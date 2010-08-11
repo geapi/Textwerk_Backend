@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  doc_name: MyString
+  doc_type: MyString
+  case_id: 9.99
+  cite: MyString
+  description: MyString
+  date: MyString
+  submitter_type: MyString
+  postion: MyString
+
+two:
+  doc_name: MyString
+  doc_type: MyString
+  case_id: 9.99
+  cite: MyString
+  description: MyString
+  date: MyString
+  submitter_type: MyString
+  postion: MyString
