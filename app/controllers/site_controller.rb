@@ -14,9 +14,9 @@ class SiteController < ApplicationController
         #results = @pubLib.map {|result| json_for_results(result) }
         results = Array.new
         @doc.each_with_index do |result, i|
-          if i < 10
+          #if i < 10
            results << json_for_results(result, i)
-         end
+         #end
          end
         render :json => { :content => results }
       end
@@ -29,6 +29,7 @@ class SiteController < ApplicationController
 		#<%= "#{@docContent[i].content}
     #result.doc_name
     { 
+      :guid => index,
       :name => result.doc_name,
       :doc_type => result.doc_type,
       :date => result.date,

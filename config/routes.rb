@@ -46,5 +46,10 @@ ActionController::Routing::Routes.draw do |map|
   
   map.connect ':action', :controller => "site"
   
+  map.resources :acl
+  
   map.resources :home
+  
+  map.resources :document
+  map.resources :documents
 end
