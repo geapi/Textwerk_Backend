@@ -2,6 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 require 'hpricot'
 class ApplicationController < ActionController::Base
+  include Logger::TextwerkLogger
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   

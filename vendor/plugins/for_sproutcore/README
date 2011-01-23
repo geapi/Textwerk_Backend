@@ -1,0 +1,82 @@
+ForSproutcore
+=============
+
+For Sproutcore provides some little nice methods for usage within a rails => sproutcore bridge.
+
+Example
+=======
+
+Models
+
+Instead of using a global configuration class, For Sproutcore allows to define attributes inside your
+ActiveRecord::Base models you want to send to your sproutcore app within your model instance.
+
+For example:
+
+<code>
+class Person < ActiveRecord::Base
+	
+	for_sproutcore :name,:surname, :birthday
+	
+end
+</code>
+
+You can also define parmaterless (instance) methods to send to your sproutcore app (if you define them as attribute record
+there to):
+
+<code>
+	class Person < ActiveRecord::Base
+	
+		for_sproutcore :name,:surname,:birthday, :is_overage?
+	
+		
+		def is_overage?
+			return (Time.now.year-birthday.year) > 18 ? true : false
+		end
+	
+	end
+</code>
+
+Controllers
+
+To use ist within your controller just include the following line:
+
+<code>
+	include Sproutcore::Controller
+</code>
+
+Example:
+
+<code>
+	PersonsController < ApplicationController
+		include Sproutcore::Controller
+	end
+</code>
+
+Then use it like:
+
+<code>
+	def index
+		@persons = Person.all
+		respond_to do |wants|
+			wants.json do
+	    	render :json => {:content => mapped_json(@persons)}
+	  	end
+		end
+	end
+</code>
+
+or:
+
+<code>
+	def create
+    ....
+    respond_to do |wants|
+    	wants.json do
+      	render :json => {:content => json_for_object(@person), :status => :created, :location => person_path(@person)}
+      end
+  	end
+	end
+</code>
+
+Daniel Schmidt for Otixo Inc. 2010

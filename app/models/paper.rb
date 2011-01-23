@@ -12,4 +12,10 @@
 #
 
 class Paper < ActiveRecord::Base
+  attr_accessor :collection
+  def initialize
+    super
+    puts "initializing paper"
+    @collection = 1
+  end
 end

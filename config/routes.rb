@@ -52,4 +52,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :document
   map.resources :documents
+  
+  map.resources :authors
+  map.resources :venues
+  map.resources :affiliations
 end
